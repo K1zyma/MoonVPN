@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ru" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#070911" />
+  <title>Moon VPN — быстрый и безопасный VPN</title>
+  <meta name="description" content="Moon VPN — быстрый VPN для Telegram, YouTube, игр и приватного доступа в интернет." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Unbounded:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="aurora aurora-1"></div>
+  <div class="aurora aurora-2"></div>
+  <div class="stars" id="stars"></div>
+  <div class="cosmic-system" aria-hidden="true">
+    <div class="cosmic-glow"></div>
+    <div class="solar-orbit orbit-a"><span></span></div>
+    <div class="solar-orbit orbit-b"><span></span></div>
+    <div class="solar-orbit orbit-c"><span></span></div>
+    <div class="hero-moon-bg"><i></i><b></b></div>
+    <div class="planet planet-blue"></div>
+    <div class="planet planet-violet"></div>
+    <div class="meteor-layer" id="meteorLayer"></div>
+  </div>
+
+  <header class="nav reveal">
+    <a class="brand" href="index.html"><span class="brand-mark">☾</span><span>Moon VPN</span></a>
+    <nav class="nav-links">
+      <a href="#plans">Тарифы</a><a href="#features">Преимущества</a><a href="#bot">Telegram Bot</a><a href="#faq">FAQ</a><a href="support.html">Поддержка</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="lang-toggle" id="langToggle" aria-label="Change language">RU / EN</button><button class="theme-toggle" id="themeToggle" aria-label="Сменить тему"><span class="theme-icon">🌙</span></button>
+      <a class="btn btn-small btn-primary" href="https://t.me/your_bot_username">🚀 Получить VPN</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero reveal">
+      <div class="hero-text">
+        <div class="badge"><span></span> Secure VPN access</div>
+        <h1>Свободный интернет<br><span>на космической скорости</span></h1>
+        <p class="hero-subtitle">Moon VPN обеспечивает приватное подключение, стабильный доступ к сервисам и простое управление подпиской через Telegram.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-xl magnetic" href="https://t.me/your_bot_username">🚀 Подключиться</a>
+          <a class="btn btn-glass btn-xl" href="#plans">💎 Посмотреть тарифы</a>
+        </div>
+        <div class="trust-row">
+          <div><strong>24/7</strong><span>онлайн</span></div>
+          <div><strong>1 мин</strong><span>подключение</span></div>
+          <div><strong>RU/EN</strong><span>интерфейс</span></div>
+        </div>
+      </div>
+      <div class="phone-card reveal delay-1">
+        <div class="orbit"><i></i></div>
+        <div class="moon-orb"><span></span></div>
+        <div class="status-card floating"><div class="dot live"></div><div><b>Moon VPN Active</b><small>Protected connection</small></div></div>
+        <div class="speed-card floating delay-1"><small>Download</small><b>248 Mbps</b><div class="speed-line"><span></span></div></div>
+        <div class="app-panel">
+          <div class="app-top"><span></span><span></span><span></span></div>
+          <h3>Private Mode</h3>
+          <div class="connect-ring"><span>ON</span></div>
+          <button>Подключено</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="features">
+      <div class="section-head"><p>Почему Moon VPN</p><h2>Премиальный VPN-сервис для ежедневного использования</h2></div>
+      <div class="feature-grid">
+        <article class="feature-card tilt"><div class="icon">⚡</div><h3>Быстрый старт</h3><p>Оплата, выдача подписки и ссылка на конфигурацию прямо в Telegram-боте.</p></article>
+        <article class="feature-card tilt"><div class="icon">🛡️</div><h3>Защита соединения</h3><p>Безопасный доступ к интернету через персональную VPN-конфигурацию.</p></article>
+        <article class="feature-card tilt"><div class="icon">📱</div><h3>Для разных устройств</h3><p>Подходит для телефона, ПК и других устройств через популярные VPN-клиенты.</p></article>
+        <article class="feature-card tilt"><div class="icon">🎁</div><h3>Промокоды и новости</h3><p>Актуальные обновления, предложения и важные уведомления доступны в официальном канале Moon VPN.</p></article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="plans">
+      <div class="section-head"><p>Тарифы</p><h2>Выберите подходящий период доступа</h2></div>
+      <div class="plans">
+        <article class="plan"><h3>1 месяц</h3><div class="price">199₽</div><p>Для теста и быстрого старта.</p><a class="btn btn-plan" href="https://t.me/your_bot_username">🛒 Купить</a></article>
+        <article class="plan popular"><div class="ribbon">Best value</div><h3>3 месяца</h3><div class="price">499₽</div><p>Оптимальный вариант по цене.</p><a class="btn btn-primary btn-plan" href="https://t.me/your_bot_username">🔥 Купить</a></article>
+        <article class="plan"><h3>6 месяцев</h3><div class="price">999₽</div><p>Для стабильного использования.</p><a class="btn btn-plan" href="https://t.me/your_bot_username">🛒 Купить</a></article>
+        <article class="plan"><h3>12 месяцев</h3><div class="price">1999₽</div><p>Максимальная выгода на год.</p><a class="btn btn-plan" href="https://t.me/your_bot_username">🛒 Купить</a></article>
+      </div>
+    </section>
+
+    <section class="section bot-section reveal" id="bot">
+      <div class="bot-copy">
+        <p class="eyebrow">Telegram Bot</p>
+        <h2>Всё управление подпиской в пару кликов</h2>
+        <p>Проверяй статус, дни до окончания, трафик, подключенные устройства, рефералов и поддержку прямо в боте.</p>
+      </div>
+      <div class="bot-menu">
+        <button>🛒 Купить</button><button>📊 Моя подписка</button><button>👥 Рефералы</button><button>💬 Помощь</button>
+      </div>
+    </section>
+
+    <section class="cta reveal">
+      <div><p>Готовы подключиться?</p><h2>Запустите Moon VPN прямо сейчас</h2><span>Перейдите в Telegram-бота, выберите тариф и получите доступ автоматически.</span></div>
+      <a class="btn btn-primary btn-xl magnetic" href="https://t.me/your_bot_username">🚀 Открыть Telegram-бота</a>
+    </section>
+
+    <section class="section reveal" id="faq">
+      <div class="section-head"><p>FAQ</p><h2>Частые вопросы</h2></div>
+      <div class="faq">
+        <details open><summary>Как подключиться?</summary><p>Открой Telegram-бота, выбери тариф, оплати подписку и следуй инструкции подключения.</p></details>
+        <details><summary>Можно использовать на телефоне?</summary><p>Да, Moon VPN можно использовать на Android и iOS через подходящее приложение-клиент.</p></details>
+        <details><summary>Где смотреть статус подписки?</summary><p>В разделе «Моя подписка» отображается статус, срок действия, трафик и ссылка на конфигурацию.</p></details>
+        <details><summary>Что делать, если не работает?</summary><p>Напиши в поддержку. Мы поможем проверить подписку, конфигурацию и приложение.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand"><span class="brand-mark">☾</span><span>Moon VPN</span></div>
+    <div class="footer-links"><a href="privacy.html">Политика конфиденциальности</a><a href="terms.html">Условия использования</a><a href="offer.html">Public Offer</a><a href="support.html">Поддержка</a></div>
+  </footer>
+
+  <script src="config.js"></script><script src="script.js"></script>
+</body>
+</html>
